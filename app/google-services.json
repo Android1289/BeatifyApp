@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "885455082748",
+    "project_id": "beatify-c5cf7",
+    "storage_bucket": "beatify-c5cf7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885455082748:android:6a2d510c28e500d200b379",
+        "android_client_info": {
+          "package_name": "com.example.beatify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDl8GlyROgE5WJamKgAidQDi8cFmz9hdgI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

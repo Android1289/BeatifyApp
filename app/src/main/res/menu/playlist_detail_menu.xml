@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_edit_detail"
+        android:title="Edit"
+        android:icon="@drawable/ic_more_vert"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item android:id="@+id/menu_edit_pl" android:title="Edit Details"/>
+            <item android:id="@+id/menu_delete_pl" android:title="Delete Playlist"/>
+        </menu>
+    </item>
+</menu>

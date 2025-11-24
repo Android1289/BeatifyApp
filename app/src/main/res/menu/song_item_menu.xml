@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_add_fav" android:title="Add to Favorites" />
+    <item android:id="@+id/menu_add_playlist" android:title="Add to Playlist" />
+    <item android:id="@+id/menu_set_cover" android:title="Set Cover Art" />
+</menu>

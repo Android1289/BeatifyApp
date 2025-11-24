@@ -1,0 +1,19 @@
+<!-- res/values-night/themes.xml -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.Beatify" parent="Theme.Material3.DayNight.NoActionBar">
+
+
+        <item name="colorPrimary">#6A1BFF</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimaryContainer">#4E00B3</item>
+
+        <item name="colorSecondary">#565353</item>
+        <item name="colorOnSecondary">#565353</item>
+        <item name="colorSecondaryContainer">#565353</item>
+
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+    </style>
+
+</resources>

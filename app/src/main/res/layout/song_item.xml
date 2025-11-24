@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:gravity="center_vertical"
+    android:background="@drawable/song_item_bg"
+    android:clipToPadding="false">
+
+    <ImageView
+        android:id="@+id/musicIcon"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/default_album_art" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:paddingStart="12dp">
+
+        <TextView
+            android:id="@+id/songTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Song Title" />
+
+        <TextView
+            android:id="@+id/songArtist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#DDD"
+            android:textSize="14sp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Artist" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/playingIndicator"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@drawable/ic_playing_indic"
+        android:visibility="gone"
+        android:layout_marginEnd="4dp"/>
+
+    <ImageButton
+        android:id="@+id/songMenuBtn"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_more_vert"
+        app:tint="#FFFFFF" />
+</LinearLayout>
